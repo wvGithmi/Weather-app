@@ -1,4 +1,6 @@
 import './App.css';
+import './index.css';
+import '/images/MwSIYTs.png'
 
 const api = {
   key: "f18d07f5dcd06b3e089674f1f7bf49a0",
