@@ -9,7 +9,7 @@ body {
   font-family: 'montseratt', sans-serif;
 }
 
-.App {
+/*.App {
   background-image: url("src/images/MwSIYTs.png");
   background-size: cover;
   background-position: bottom;
@@ -17,8 +17,8 @@ body {
 }
 
 .App-warm {
-  background-image: url("src/images/b86e2adf7c2e299541bfee90b28f737e.png");
-}
+  background-image: url("src/b86e2adf7c2e299541bfee90b28f737e.png");
+}*/
 
 main {
   min-height: 100vh;
