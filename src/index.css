@@ -1,24 +1,26 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'montseratt', sans-serif;
 }
 
+/* App & App-warm */
 .App {
-  /*background-image: url("src/images/MwSIYTs.png");*/
+  background-image: url("/src/images/MwSIYTs.png");
+
+}
+.App-warm {
+  background-image: url("/src/images/b86e2adf7c2e299541bfee90b28f737e.png");
+  color: rgb(196, 196, 23);
+}
+.App, .App-warm {
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
 }
-
-/*.app-warm {
-  background-image: url("src/b86e2adf7c2e299541bfee90b28f737e.png");
-}*/
 
 main {
   min-height: 100vh;
@@ -26,14 +28,16 @@ main {
   padding: 25px;
 }
 
+/* search-box */
 .search-bar {
-  width: 100%;
+  width: 50%;
   margin: 0px 0px 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .search-box .search-bar {
   display: block;
-  width: 100%;
+  width: 50%;
   padding: 15px;
 
   appearance: none;
@@ -52,42 +56,42 @@ main {
 
   transition: 0.4s ease;
 }
-
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
+/* location-box */
 .location-box .location {
   color: #FFF;
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 500;
   text-align: center;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
-
 .location-box .date {
   color: #FFF;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
   text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
 }
 
+/* weather-box */
 .weather-box {
   text-align: center;
 }
 
-.weather-box .temp {
+/* weather-box temp & weather-box temp-warm */
+.weather-box .temp, .weather-box .temp-warm {
   position: relative;
   display: inline-block;
-  margin: 30px auto;
+  margin: 28px auto;
   background-color: rgbs(255, 255, 255, 0.2);
   border-radius: 16px;
 
   padding: 15px 25px;
 
-  color: #FFF;
   font-size: 102px;
   font-weight: 900;
 
@@ -95,10 +99,22 @@ main {
   text-align: center;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
+.weather-box .temp {
+  color: rgba(6, 224, 253, 0.6);
+}
+.weather-box .temp-warm {
+  color: rgba(253, 229, 14, 0.9);
+}
 
-.weather-box .weather {
-  color: #FFF;
+/* weather-box weather & weather-box weather-warm */
+.weather-box .weather, .weather-box .weather-warm {
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.weather-box .weather {
+  color: rgb(28, 195, 246);
+}
+.weather-box .weather-warm {
+  color: rgb(253, 232, 45);
 }
