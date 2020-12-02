@@ -9,14 +9,14 @@ body {
   font-family: 'montseratt', sans-serif;
 }
 
-/*.App {
-  background-image: url("src/images/MwSIYTs.png");
+.App {
+  /*background-image: url("src/images/MwSIYTs.png");*/
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
 }
 
-.App-warm {
+/*.app-warm {
   background-image: url("src/b86e2adf7c2e299541bfee90b28f737e.png");
 }*/
 
